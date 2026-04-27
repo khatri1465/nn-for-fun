@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LLM Aggregator</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="app">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <div class="logo">
+          <span class="logo-icon">⬡</span>
+          <span class="logo-text">LLM Hub</span>
+        </div>
+      </div>
+
+      <div class="token-card">
+        <div class="token-label">Token Balance</div>
+        <div class="token-count" id="tokenCount">—</div>
+        <div class="token-bar-wrap">
+          <div class="token-bar" id="tokenBar"></div>
+        </div>
+        <div class="token-sub" id="tokenSub">Loading…</div>
+      </div>
+
+      <div class="section-label">Model</div>
+      <div class="model-list" id="modelList">
+        <div class="model-loading">Loading models…</div>
+      </div>
+
+      <div class="section-label">System Prompt</div>
+      <textarea
+        id="systemPrompt"
+        class="system-prompt"
+        placeholder="Optional: set a system prompt for the LLM…"
+        rows="4"
+      ></textarea>
+
+      <div class="sidebar-footer">
+        <button class="btn-new" id="newSessionBtn">+ New Session</button>
+        <div class="session-id" id="sessionIdDisplay"></div>
+      </div>
+    </aside>
+
+    <!-- Main chat area -->
+    <main class="chat-area">
+      <div class="chat-header">
+        <div class="chat-header-model" id="chatHeaderModel">Select a model to start</div>
+      </div>
+
+      <div class="messages" id="messages">
+        <div class="welcome">
+          <div class="welcome-icon">⬡</div>
+          <h2>LLM Aggregator</h2>
+          <p>Chat with GPT, Claude, or Grok — all in one place.<br/>Select a model from the sidebar to begin.</p>
+        </div>
+      </div>
+
+      <div class="input-area">
+        <div class="input-wrap">
+          <textarea
+            id="userInput"
+            class="user-input"
+            placeholder="Type a message…"
+            rows="1"
+          ></textarea>
+          <button class="send-btn" id="sendBtn" disabled>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+          </button>
+        </div>
+        <div class="input-footer" id="inputFooter"></div>
+      </div>
+    </main>
+  </div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
