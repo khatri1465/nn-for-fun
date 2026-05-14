@@ -1,0 +1,114 @@
+{
+  "theme": "flat-motion-graphics",
+  "cuts": [
+    {
+      "id": "football-hero",
+      "source": "",
+      "type": "hero_title",
+      "in_seconds": 0,
+      "out_seconds": 4,
+      "text": "The Beautiful Game",
+      "subtitle": "A boy. A ball. An endless field of dreams.",
+      "backgroundColor": "#0D1F0D"
+    },
+    {
+      "id": "football-quote",
+      "source": "",
+      "type": "text_card",
+      "in_seconds": 4,
+      "out_seconds": 9,
+      "headline": "Every champion was once a boy who refused to give up.",
+      "body": "It starts with a single kick. A moment of magic on a muddy field. The world disappears — and it is just the boy and the ball.",
+      "backgroundColor": "#1A2E1A",
+      "accentColor": "#4ADE80"
+    },
+    {
+      "id": "football-players",
+      "source": "",
+      "type": "stat_card",
+      "in_seconds": 9,
+      "out_seconds": 13,
+      "stat": "270M",
+      "subtitle": "People play football worldwide — the most-played sport on Earth",
+      "accentColor": "#4ADE80",
+      "backgroundColor": "#0D1F0D"
+    },
+    {
+      "id": "football-age",
+      "source": "",
+      "type": "stat_card",
+      "in_seconds": 13,
+      "out_seconds": 17,
+      "stat": "5 yrs",
+      "subtitle": "The average age a child first kicks a football — before language, before logic",
+      "accentColor": "#FACC15",
+      "backgroundColor": "#1A2E1A"
+    },
+    {
+      "id": "football-section",
+      "source": "",
+      "type": "section_title",
+      "in_seconds": 17,
+      "out_seconds": 20,
+      "title": "The Game That Never Ends",
+      "backgroundColor": "#0D1F0D",
+      "accentColor": "#4ADE80"
+    },
+    {
+      "id": "football-youth-chart",
+      "source": "",
+      "type": "bar_chart",
+      "in_seconds": 20,
+      "out_seconds": 27,
+      "title": "Youth Football Participation (millions of players)",
+      "chartData": [
+        { "label": "Brazil", "value": 13 },
+        { "label": "Germany", "value": 7 },
+        { "label": "England", "value": 6 },
+        { "label": "Spain", "value": 5 },
+        { "label": "Nigeria", "value": 4 }
+      ],
+      "chartColors": ["#4ADE80", "#22D3EE", "#FACC15", "#F97316", "#A78BFA"],
+      "showGrid": true,
+      "showValues": true,
+      "backgroundColor": "#1A2E1A"
+    },
+    {
+      "id": "football-kpis",
+      "source": "",
+      "type": "kpi_grid",
+      "in_seconds": 27,
+      "out_seconds": 33,
+      "title": "A Match in Numbers",
+      "items": [
+        { "label": "Touches per game", "value": "50+", "delta": "" },
+        { "label": "Distance run", "value": "10 km", "delta": "" },
+        { "label": "Shots on target", "value": "5–8", "delta": "" },
+        { "label": "Moments of magic", "value": "∞", "delta": "" }
+      ],
+      "backgroundColor": "#0D1F0D",
+      "accentColor": "#FACC15"
+    },
+    {
+      "id": "football-callout",
+      "source": "",
+      "type": "callout_box",
+      "in_seconds": 33,
+      "out_seconds": 38,
+      "label": "On every field, in every city, in every country",
+      "body": "A boy chases a ball across the grass — and for that moment, he is Pelé, Ronaldo, Messi. He is every hero who ever played.",
+      "backgroundColor": "#1A2E1A",
+      "accentColor": "#4ADE80"
+    },
+    {
+      "id": "football-outro",
+      "source": "",
+      "type": "hero_title",
+      "in_seconds": 38,
+      "out_seconds": 45,
+      "text": "Play. Dream. Believe.",
+      "subtitle": "The beautiful game belongs to everyone.",
+      "backgroundColor": "#0D1F0D"
+    }
+  ]
+}
